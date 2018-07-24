@@ -1,3 +1,5 @@
 // declare your functions here...
-  return p$('p').get()
+function paragraphSelector () {
+  let paragraphs = $('p').get()
+  return paragraphs
 }
